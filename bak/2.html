@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   美食, 餐厅餐饮, 团购,生活,优惠券-大众点评网
+  </title>
+  <!--网页标题左侧显示-->
+  <link href="//www.dpfile.com/app/pc-common/dp_favicon.ico" rel="icon" type="image/x-icon"/>
+  <!--收藏夹显示图标-->
+  <link href="//www.dpfile.com/app/pc-common/dp_favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <!--1. 首先引入页头模块css，保证页头模块css在前，首先渲染  -->
+  <link href="//www.dpfile.com/app/pc-common/index.min.css" rel="stylesheet" type="text/css"/>
+  <!--其他模块css在后-->
+  <link href="//www.dpfile.com/app/dpindex-new-static/static/new_404_pc.min.css" rel="stylesheet" type="text/css"/>
+  <!--2. 引入页头模块 js  -->
+  <!--3. 注入页头需要的参数  -->
+  <script type="text/javascript">
+   window._DP_HeaderData = {
+            'cityId': '1',  // 城市id , 必须，默认: '1'
+            'cityCName': '', // 城市中文名, 必须, 默认:上海
+            'cityEnName': '', // 城市英文名，默认：shanghai
+            'pageType': 'index', // 页面类型，枚举类型 'index' || 'search', 必须， 默认：'index'
+            'userId': '',   // 用户id， 若用户已经登录，必须传，未登录时，可不传此参数，或者传空字符串''，默认:'', 未登录状态
+            'userName':'',   // 用户名， 若用户已经登录，必须传，未登录时，可不传此参数，或者传空字符串''，默认:'', 未登录状态
+            'dpId': '', // 点评id, 可选参数， 默认:''
+            'uesrLng': '0.0', // 用户所在位置经度，可选参数，默认：'0.0';
+            'userLan': '0.0', // 用户所在位置维度，可选参数，默认：'0.0';
+            'clientIp': '' //用户终端ip地址，可选参数， 默认 '127.0.0.1'
+        }
+  </script>
+  <!--4. 如果有必要，可以引入其他模块或第三方js,比如:灵犀web4.0打点配置-->
+  <script type="text/javascript">
+   (function (win, doc, ns) { var cacheFunName = '_MeiTuanALogObject'; win[cacheFunName] = ns; if (!win[ns]) { var _LX = function () { _LX.q.push(arguments); return _LX; }; _LX.q = _LX.q || []; _LX.l = +new Date(); win[ns] = _LX; } })(window, document, 'LXAnalytics');
+  </script>
+  <script async="" charset="utf-8" defer="" src="http://analytics.meituan.net/analytics.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div class="header-container">
+   <div class="top-nav" id="top-nav">
+   </div>
+   <div class="logo-input" id="logo-input">
+    <div class="logo-input-container clearfix">
+     <a class="logo" href="/" title="大众点评网">
+     </a>
+     <div class="search-box">
+      <div class="search-bar ">
+       <span class="search-container clearfix">
+        <i class="i-search">
+        </i>
+       </span>
+       <p class="hot-search J-hot-search">
+       </p>
+      </div>
+     </div>
+     <div class="qrcode-container">
+      <i class="close">
+      </i>
+      <div class="qrcode">
+       <p class="qrcode-text">
+        手机点评
+       </p>
+       <div class="qrcode-img">
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="cate-container">
+    <div class="nav-header">
+     <div class="navbar">
+      <a href="//www.dianping.com">
+       <span class="cate-item all-cate">
+        全部分类
+       </span>
+      </a>
+      <a class="cate-item other-cate" href="http://t.dianping.com/shanghai" target="_blank">
+       团购
+      </a>
+      <a class="cate-item other-cate" href="http://s.dianping.com/event/shanghai" target="_blank">
+       霸王餐
+      </a>
+      <i class="hot-icon">
+      </i>
+      <a class="cate-item other-cate" href="http://s.dianping.com/shanghai/group?utm_source=dp_pc_other" target="_blank">
+       社区论坛
+      </a>
+     </div>
+    </div>
+    <div class="gradient">
+    </div>
+   </div>
+  </div>
+  <div class="not-found">
+   <div class="not-found-content">
+    <div class="img-not-found">
+    </div>
+    <div class="not-found-right">
+     <p class="not-found-words">
+      抱歉！页面无法访问......
+     </p>
+     <p class="not-found-words1">
+      错误信息：
+     </p>
+     <p class="not-found-words1">
+      currentDate:2018-07-04 11:24:29
+     </p>
+     <p class="not-found-words1">
+      userIp:119.137.55.53, 10.72.40.9
+     </p>
+     <p class="not-found-words1">
+      userAgent:python-requests/2.18.4
+     </p>
+     <a class="back-to-home" href="http://www.dianping.com">
+      <button type="button">
+       去大众点评首页
+      </button>
+     </a>
+    </div>
+   </div>
+  </div>
+  <!--页尾部分-->
+  <div class="footer-container">
+   <div class="channel-footer" id="channel-footer">
+    <p class="links">
+     <a href="http://www.dianping.com/help/center/rule?name=about1" rel="nofollow" target="_blank">
+      关于大众点评
+     </a>
+     |
+     <a href="https://dpapp-appeal.meituan.com/#/shopCreditRegulationPC" rel="nofollow" target="_blank">
+      诚信公约
+     </a>
+     |
+     <a href="//www.dianping.com/help" rel="nofollow" target="_blank">
+      网站帮助
+     </a>
+     |
+     <a href="http://www.dianping.com/sitemap/c1c10" target="_blank">
+      网站地图
+     </a>
+     |
+     <a href="//www.dianping.com/business/" rel="nofollow" target="_blank">
+      推广服务
+     </a>
+     |
+     <a href="http://www.dianping.com/help/center/rule?name=media1" rel="nofollow" target="_blank">
+      媒体报道
+     </a>
+     |
+     <a href="http://careers.dianping.com" rel="nofollow" target="_blank">
+      人才招聘
+     </a>
+     |
+     <!--新增footer links-->
+     <span class="links-container">
+      <a class="ext-links" href="javascript:void(0);" rel="nofollow">
+       最新咨询
+      </a>
+      |
+     </span>
+     <a href="http://www.dianping.com/forum" rel="nofollow" target="_blank">
+      站务论坛
+     </a>
+     |
+     <a href="http://www.dianping.com/help/center/rule?name=about4" rel="nofollow" target="_blank">
+      联系我们
+     </a>
+     |
+     <a href="http://developer.dianping.com" rel="nofollow" target="_blank">
+      开发者
+     </a>
+     |
+     <a href="https://developer.meituan.com/?applyFrom=dianping_c_pc_busines" rel="nofollow" target="_blank">
+      聚宝盆餐饮开放平台
+     </a>
+    </p>
+    <!--新增 footer links 面板-->
+    <div class="ext-container Hide">
+     <div class="link-items Hide">
+      <a href="http://www.dianping.com/wedding/wenda" target="_blank">
+       <span>
+        结婚问答
+       </span>
+      </a>
+      <a href="http://www.dianping.com/home/wenda" target="_blank">
+       <span>
+        家装问答
+       </span>
+      </a>
+      <a href="http://www.dianping.com/home-tuku" target="_blank">
+       <span>
+        家装图库
+       </span>
+      </a>
+      <a href="//m.dianping.com/home-tuku" target="_blank">
+       <span>
+        家装图库手机版
+       </span>
+      </a>
+      <a href="http://www.dianping.com/wedding" target="_blank">
+       <span>
+        结婚资讯
+       </span>
+      </a>
+      <a href="http://www.dianping.com/plastic/item" target="_blank">
+       <span>
+        整形项目大全
+       </span>
+      </a>
+      <a href="http://www.dianping.com/plastic/wenda" target="_blank">
+       <span>
+        丽人问答
+       </span>
+      </a>
+      <a href="http://www.dianping.com/movie" target="_blank">
+       <span>
+        点评电影
+       </span>
+      </a>
+      <a href="http://www.dianping.com/baby/wenda" target="_blank">
+       <span>
+        育儿问答
+       </span>
+      </a>
+     </div>
+    </div>
+    <p class="rights">
+     <span style="margin-right:10px;">
+      ©2003-2018 dianping.com, All Rights Reserved.
+     </span>
+     <span>
+      本站发布的所有内容，未经许可，不得转载，详见
+      <a class="G" href="//www.dianping.com/help/center/rule?name=base2" rel="nofollow">
+       《知识产权声明》
+      </a>
+      。
+     </span>
+    </p>
+   </div>
+   <script>
+    (function(){var h=navigator.userAgent;var i=navigator.appName;var b=i.indexOf("Microsoft Internet Explorer")!==-1;if(!b){return false}var d=/MSIE (\d+).0/g;var e=d.exec(h);if(e&&e.length&&e[1]<9){var j='<div class="browser-overlay"></div><div id="browser-ie-con" class="browser-ie-con"><div id="browser-close" class="close">×</div><div class="browser-download chrome"><a href="//www.google.cn/chrome/browser/desktop/index.html?utm_dp" target="_black" title="chrome"></a></div><div class="browser-download firefox"><a href="//www.firefox.com.cn/download/?utm_dp" target="_black" title="firefox"></a></div></div>';var f=document.createElement("div");f.id="browser-update-ie";f.className="browser-update-ie";f.innerHTML=j;document.body.appendChild(f);var a=document.documentElement.clientWidth||document.body.clientWidth;var c=document.getElementById("browser-ie-con").offsetWidth;var g=(a-c)/2;document.getElementById("browser-ie-con").style.left=g+"px";document.getElementById("browser-close").attachEvent("onclick",function(){document.getElementById("browser-update-ie").style.display="none"},false)}})();
+   </script>
+  </div>
+ </body>
+</html>
